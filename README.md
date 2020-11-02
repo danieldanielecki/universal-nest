@@ -1,3 +1,9 @@
+# Note: the app is just for showcase of not working applyDomino
+
+I've added [Agastya](https://oswaldlabs.com/platform/agastya/) to showcase that `applyDomino` doesn't affect & doesn't work anymore in the `@nestjs/ng-universal`. The Agastya API key `ditectrev-70d3b` will expire anytime soon, therefore you can create your own at [https://admin.oswaldlabs.com](https://admin.oswaldlabs.com) or simply use a different library which is accessing `window` object. The same applies for the second repository [https://github.com/danieldanielecki/universal-nest-working-window](https://github.com/danieldanielecki/universal-nest-working-window).
+
+Run this simply as written in the `Installation`, that's just fork of `universal-nest` with 1 library accessing `window` object. The the repository [https://github.com/danieldanielecki/universal-nest-working-window](https://github.com/danieldanielecki/universal-nest-working-window) is a bit different though.
+
 # Nest & Angular Universal Starter
 
 A minimal [**Nest**](https://github.com/nestjs/nest) and Angular starter for Universal using the
