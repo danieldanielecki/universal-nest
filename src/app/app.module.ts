@@ -6,6 +6,9 @@ import { TransferHttpCacheModule } from '@nguniversal/common';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { SharedModule } from './modules/shared/shared.module';
+import Agastya from 'agastya';
+
+new Agastya('ditectrev-70d3b');
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
